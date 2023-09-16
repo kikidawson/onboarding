@@ -21,3 +21,13 @@ echo "installing communication tools..."
 brew install --cask slack
 brew install --cask discord
 brew install --cask zoom
+
+if [[ ! -f ~/.zshrc ]]
+then
+    touch ~/.zshrc
+fi
+
+echo "alias gs=\"git status\"" >> ~/.zshrc
+echo "alias gp=\"git pull\"" >> ~/.zshrc
+echo "" >> ~/.zshrc
+echo "alias k=\"git kubectl\"" >> ~/.zshrc
