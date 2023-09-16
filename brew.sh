@@ -9,8 +9,6 @@ brew install --cask google-chrome
 
 echo "installing platform tools..."
 brew install awscli
-brew install terraform
-brew install terragrunt
 brew install warrensbox/tap/tfswitch
 brew install warrensbox/tap/tgswitch
 
